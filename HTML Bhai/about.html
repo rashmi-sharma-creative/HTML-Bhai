@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <div class="overlayheader">
+      <nav>
+        <a href="index.html"><img src="img/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="jewellery.html">JEWELLERY</a></li>
+            <li><a href="gemstones.html">GEM-STONES</a></li>
+            <li><a href="on-order.html">ON ORDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>About Us</h1>
+        <p>Making jewellery is fun. Play with gold & silver, make it, burn it, smoke and blow the gold dust away.
+          <br>Looking
+          into stones' living energy reminds me of millions colors of souls around and beyond the globe. <br>Lavishing
+          nature is full of mysteries. We dig them, shape and shine them up and make it available with all our passion
+          and love<br>- just for YOU.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!----About us content----->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-us-col">
+        <h1>Fine Jewellers</h1>
+        <p>We are bla bla bla</p>
+        <a href="" class="hero-btn red-btn">Explore more</a>
+      </div>
+      <div class="about-us-col">
+        <img src="img/gem2.jpg" </div>
+      </div>
+  </section>
+
+
+
+  <!---Footer--->
+  <section class="footer">
+    <h4>Immaculate Jewellers</h4>
+    <p>Fine Jewellery Artisan<br>Precious & Semi-Precious Stones</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <p class="bottom-text">Made with <i class="fa-solid fa-heart"></i> by Rashmi<br><i
+          class="fa-regular fa-copyright"></i> all rights
+        reserved</p>
+    </div>
+
+
+  </section>
+
+
+
+  <!----javascript for toggle menu----->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+
+</html>
